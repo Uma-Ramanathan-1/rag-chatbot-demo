@@ -1,0 +1,30 @@
+# 🐍 Python virtual environments
+.venv/
+venv/
+
+# 🔐 Environment variables
+backend/.env
+
+# Generated data and FAISS indexes (remove if you want data/indexes in git)
+backend/data/**
+!backend/data/.gitkeep
+
+#  Python artifacts
+**/__pycache__/
+backend/**/*.py[cod]
+backend/**/*.egg-info/
+backend/dist/
+backend/build/
+
+# 🧪 Test artifacts
+backend/.coverage
+backend/htmlcov/
+backend/**/*.log
+logs/*.log
+backend/logs/*.log
+
+# 🧼 IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
